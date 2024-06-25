@@ -1,7 +1,7 @@
 ---
 layout: default
-title: AI Ethics course
+title: Learn Tools
 nav_order: 2
 has_children: true
 ---
-# AI Ethics course
+# Learn Tools
