@@ -2,7 +2,7 @@
 layout: default
 title:  "Configure Data Science Project" 
 parent: Deployment Instructions
-nav_order: 1
+nav_order: 2
 ---
 
 
