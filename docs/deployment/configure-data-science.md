@@ -20,5 +20,6 @@ Version selection `2024.1`
 ![20240603150939](https://i.imgur.com/LZApBNv.png)
 5. Git clone the repository
 Git clone: `https://github.com/tosin2013/responsible-ai-ml-pipeline.git`
+![20240625181246](https://i.imgur.com/hqqTNjq.png)
 ![20240603151456](https://i.imgur.com/AQ037lj.png)
 ![20240603151512](https://i.imgur.com/6plqczC.png)
