@@ -20,15 +20,16 @@ nav_order: 1
    - Visit the [Developer Sandbox page](https://developers.redhat.com/developer-sandbox) to obtain an OpenShift cluster. This will enroll you in the Red Hat Developer Program if you aren't already a member.
 
 2. **Start the Sandbox**:
-   - Once logged in, you will see the option to start your sandbox. Click on **Start your sandbox for free**.
-   - Follow the prompts to set up your sandbox environment. This process may take a few minutes.
+   - Once logged in, you will see the option  dto start your sandbox. Click on **Develop in the sandbox with the Red Hat Developer program**.
+   - Follow the prompts to set up your sandbox environment. This process may take a few minutes. 
+![20240625180535](https://i.imgur.com/jFliZBM.png)
 
 ### 3. Accessing Red Hat OpenShift AI Platform
 
 1. **Launch OpenShift AI**:
    - From the Developer Sandbox main page, click the **Launch** button for OpenShift AI.
    - You will be redirected to the OpenShift AI web interface, where you will need to log in using your Red Hat credentials.
-
+![20240625180609](https://i.imgur.com/xaApyf9.png)
 2. **Explore OpenShift AI**:
    - Once logged in, you will see a default Data Science project created for you. Click on the project name to access various features.
 
