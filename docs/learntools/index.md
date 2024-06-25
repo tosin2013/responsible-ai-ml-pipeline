@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AI Ethics course
-nav_order: 1
+nav_order: 2
 has_children: true
 ---
 # AI Ethics course

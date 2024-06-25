@@ -1,7 +1,6 @@
 ---
 layout: default
-title: AI Ethics course
+title: Deployment Instructions
 nav_order: 1
 has_children: true
 ---
-# AI Ethics course

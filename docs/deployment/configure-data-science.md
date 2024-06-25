@@ -1,7 +1,18 @@
+---
+layout: default
+title:  "Configure Data Science Project" 
+parent: Deployment Instructions
+nav_order: 1
+---
 
-![20240603150519](https://i.imgur.com/oUHEjI9.png)
-![20240603150431](https://i.imgur.com/IP5rBqo.png)
-![20240603150557](https://i.imgur.com/hO8jqfs.png)
+
+Once you are in the OpenShift AI workspace click on `Create a workbench`
+![20240621111631](https://i.imgur.com/z5gcpKY.png)
+Name: `responsible-ai-ml-pipeline`
+Notebook image
+Image selection: `TrustyAI`
+Version selection `2024.1`
+![20240621112811](https://i.imgur.com/JADcoD5.png)
 ![20240603150615](https://i.imgur.com/MC7f4bK.png)
 ![20240603150939](https://i.imgur.com/LZApBNv.png)
 

@@ -1,3 +1,11 @@
+---
+layout: default
+title:  "Step-by-Step Guide to Creating a Developer Sandbox on Red Hat OpenShift AI" 
+parent: Deployment Instructions
+nav_order: 1
+---
+
+
 ## Step-by-Step Guide to Creating a Developer Sandbox on Red Hat OpenShift AI
 
 ### 1. Accessing the Red Hat Hybrid Cloud Console
