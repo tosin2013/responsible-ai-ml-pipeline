@@ -5,7 +5,7 @@ parent: Deployment Instructions
 nav_order: 2
 ---
 
-## Configure Data Science Project
+## Configure Data Science Project - TrustyAI Workloads
 
 1. Once you are in the OpenShift AI workspace click on `Create a workbench`
 ![20240621111631](https://i.imgur.com/z5gcpKY.png)
@@ -23,3 +23,5 @@ Git clone: `https://github.com/tosin2013/responsible-ai-ml-pipeline.git`
 ![20240625181246](https://i.imgur.com/hqqTNjq.png)
 ![20240603151456](https://i.imgur.com/AQ037lj.png)
 ![20240603151512](https://i.imgur.com/6plqczC.png)
+
+## Configure Data Science Project - AI 360 Workloads
