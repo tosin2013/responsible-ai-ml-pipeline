@@ -27,7 +27,7 @@ First, we need to install the necessary libraries. This includes the AIF360 tool
 !pip install -q 'aif360[AdversarialDebiasing]'
 !pip install -q 'aif360[Reductions]'
 !pip install -q 'aif360[inFairness]'
-!pip install -q pandas scikit-learn skl2onnx onnx onnxruntime matplotlib seaborn
+!pip install -q pandas 
 ```
 
 *Explanation*: These commands install the AIF360 toolkit and other necessary libraries such as pandas for data manipulation, scikit-learn for machine learning, and matplotlib and seaborn for data visualization.
