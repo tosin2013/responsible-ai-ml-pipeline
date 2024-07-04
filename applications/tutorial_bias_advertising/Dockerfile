@@ -14,4 +14,6 @@ COPY --chown=1001:0 . .
 RUN curl -OL https://dax-cdn.cdn.appdomain.cloud/dax-bias-in-advertising/1.0.0/bias-in-advertising.tar.gz \
     && tar -zxvf bias-in-advertising.tar.gz
 
+EXPOSE 8080
+
 CMD ["python", "app.py"]
