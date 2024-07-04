@@ -9,9 +9,13 @@ from aif360.algorithms.postprocessing import RejectOptionClassification
 from aif360.detectors.mdss.ScoringFunctions import Bernoulli
 from aif360.detectors.mdss.MDSS import MDSS
 from aif360.detectors.mdss.generator import get_random_subset
-import json
+import logging
 
 app = Flask(__name__)
+
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Define request model
 class BiasRequestModel(BaseModel):
@@ -52,6 +56,8 @@ def measure_mitigate_bias():
     scores_name = data.scores_name
     random_seed = data.random_seed
     
+    logger.info("Received request with target_label_name: %s, scores_name: %s, random_seed: %d", target_label_name, scores_name, random_seed)
+    
     # Convert dataset to StandardDataset
     ad_standard_dataset_pred = convert_to_standard_dataset(ad_conversion_dataset, target_label_name, scores_name)
     ad_standard_dataset_orig = ad_standard_dataset_pred.copy()
@@ -66,11 +72,13 @@ def measure_mitigate_bias():
                                                  unprivileged_groups=unprivileged_groups,
                                                  privileged_groups=privileged_groups)
     disparate_impact_orig = metric_orig.disparate_impact()
+    logger.info("Disparate impact (original): %f", disparate_impact_orig)
     
     metric_pred = BinaryLabelDatasetMetric(ad_standard_dataset_pred, 
                                                  unprivileged_groups=unprivileged_groups,
                                                  privileged_groups=privileged_groups)
     disparate_impact_pred = metric_pred.disparate_impact()
+    logger.info("Disparate impact (predicted): %f", disparate_impact_pred)
     
     # Post-processing to mitigate bias
     dataset_orig_train, dataset_orig_vt = ad_standard_dataset_orig.split([0.7], shuffle=True, seed=random_seed)
@@ -90,6 +98,7 @@ def measure_mitigate_bias():
                                                  unprivileged_groups=unprivileged_groups,
                                                  privileged_groups=privileged_groups)
     disparate_impact_valid_transf = metric_pred_valid_transf.disparate_impact()
+    logger.info("Disparate impact (transformed): %f", disparate_impact_valid_transf)
     
     # Return the results as JSON
     results = {
