@@ -7,4 +7,8 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
+# Download and extract the dataset
+RUN curl -OL https://dax-cdn.cdn.appdomain.cloud/dax-bias-in-advertising/1.0.0/bias-in-advertising.tar.gz \
+    && tar -zxvf bias-in-advertising.tar.gz
+
 CMD ["python", "app.py"]
