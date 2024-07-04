@@ -1,0 +1,17 @@
+kind: ImageStream
+apiVersion: image.openshift.io/v1
+metadata:
+  name: tutorial-bias-advertising
+  namespace: tutorial-bias-advertising
+  labels:
+    app: tutorial-bias-advertising
+    app.kubernetes.io/component: tutorial-bias-advertising
+    app.kubernetes.io/instance: tutorial-bias-advertising
+    app.kubernetes.io/name: tutorial-bias-advertising
+    app.kubernetes.io/part-of: tutorial-bias-advertising
+spec:
+  lookupPolicy:
+    local: false
+status:
+  dockerImageRepository: >-
+    image-registry.openshift-image-registry.svc:5000/tutorial-bias-advertising/tutorial-bias-advertising

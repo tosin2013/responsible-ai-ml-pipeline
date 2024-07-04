@@ -7,6 +7,8 @@ nav_order: 1
 
 This tutorial illustrates how bias in advertising data can be discovered, measured, and mitigated using the **AI Fairness 360 (AIF360) toolkit**. We use synthetic advertising data where advertisements are targeted, and the actual and predicted conversions are collected along with additional attributes about each user. A user is considered to have converted when they click on an advertisement. This tutorial demonstrates how methods in the AIF360 toolkit can be used to discover biased subgroups, determine the amount of bias, and mitigate this bias.
 
+Notebook for this tutorial: [Discover, Measure, and Mitigate Bias in Advertising](https://github.com/tosin2013/responsible-ai-ml-pipeline/blob/main/notebooks/ai360/tutorial_bias_advertising.ipynb)
+
 ## Use Case Description
 
 - **Dataset**: Synthetic data of users shown advertisements with attributes such as gender, age, income, political/religious affiliation, parental status, home ownership, area (rural/urban), and education status.
