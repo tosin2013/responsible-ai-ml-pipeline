@@ -10,6 +10,11 @@ spec:
       uri: 'https://github.com/tosin2013/responsible-ai-ml-pipeline.git'
     type: Git
     contextDir: applications/tutorial_bias_advertising
+  output:
+    to:
+      kind: ImageStreamTag
+      name: 'tutorial-bias-advertising:latest'
+  resources: {}
   strategy:
     type: Docker
     dockerStrategy:

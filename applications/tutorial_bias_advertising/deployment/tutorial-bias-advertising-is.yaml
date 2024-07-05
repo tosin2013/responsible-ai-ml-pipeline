@@ -1,6 +1,10 @@
 kind: ImageStream
 apiVersion: image.openshift.io/v1
 metadata:
+  annotations:
+    app.openshift.io/vcs-ref: ''
+    app.openshift.io/vcs-uri: 'https://github.com/tosin2013/responsible-ai-ml-pipeline.git'
+    openshift.io/generated-by: OpenShiftWebConsole
   name: tutorial-bias-advertising
   namespace: tutorial-bias-advertising
   labels:
@@ -12,6 +16,4 @@ metadata:
 spec:
   lookupPolicy:
     local: false
-status:
-  dockerImageRepository: >-
-    image-registry.openshift-image-registry.svc:5000/tutorial-bias-advertising/tutorial-bias-advertising
+
