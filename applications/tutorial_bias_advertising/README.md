@@ -1,7 +1,7 @@
 # Tutorial bias advertising
 
 
-## Depploy the Tutorial bias advertising api in OpenShift
+## Deploy the Tutorial bias advertising api in OpenShift
 ```
 oc create -k applications/tutorial_bias_advertising/deployment  
 ```
