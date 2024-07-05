@@ -5,6 +5,5 @@ resources:
   - tutorial-bias-advertising-is.yaml
   - tutorial-bias-advertising-bc.yaml
   - service.yaml
-  - serviceaccount.yaml
   - deployment.yaml
   - route.yaml

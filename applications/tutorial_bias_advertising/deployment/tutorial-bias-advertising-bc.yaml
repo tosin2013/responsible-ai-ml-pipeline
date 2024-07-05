@@ -1,35 +1,20 @@
-kind: Build
 apiVersion: build.openshift.io/v1
+kind: BuildConfig
 metadata:
-  name: tutorial-bias-advertising-1
-  labels:
-    app: tutorial-bias-advertising
-    app.kubernetes.io/component: tutorial-bias-advertising
-    app.kubernetes.io/instance: tutorial-bias-advertising
-    app.kubernetes.io/name: tutorial-bias-advertising
-    app.kubernetes.io/part-of: tutorial-bias-advertising
-    buildconfig: tutorial-bias-advertising
-    openshift.io/build-config.name: tutorial-bias-advertising
-    openshift.io/build.start-policy: Serial
+  name: tutorial-bias-advertising
+  namespace: tutorial-bias-advertising
 spec:
-  nodeSelector: null
-  output:
-    to:
-      kind: ImageStreamTag
-      name: 'tutorial-bias-advertising:latest'
-    pushSecret:
-      name: builder-dockercfg-vlbbw
-  resources: {}
-  triggeredBy:
-    - message: Build configuration change
+  source:
+    git:
+      ref: main
+      uri: 'https://github.com/tosin2013/responsible-ai-ml-pipeline.git'
+    type: Git
+    contextDir: applications/tutorial_bias_advertising
   strategy:
     type: Docker
     dockerStrategy:
       dockerfilePath: Dockerfile
-  postCommit: {}
-  serviceAccount: builder
-  source:
-    type: Git
-    git:
-      uri: 'https://github.com/tosin2013/responsible-ai-ml-pipeline.git'
-    contextDir: applications/tutorial_bias_advertising
+  triggers:
+    - type: ImageChange
+      imageChange: {}
+    - type: ConfigChange
