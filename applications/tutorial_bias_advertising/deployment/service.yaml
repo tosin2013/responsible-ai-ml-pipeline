@@ -1,0 +1,26 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: tutorial-bias-advertising
+  namespace: tutorial-bias-advertising
+  labels:
+    app: tutorial-bias-advertising
+    app.kubernetes.io/component: tutorial-bias-advertising
+    app.kubernetes.io/instance: tutorial-bias-advertising
+    app.kubernetes.io/name: tutorial-bias-advertising
+    app.kubernetes.io/part-of: tutorial-bias-advertising
+spec:
+  ipFamilies:
+    - IPv4
+  ports:
+    - name: 8080-tcp
+      protocol: TCP
+      port: 8080
+      targetPort: 8080
+  internalTrafficPolicy: Cluster
+  type: ClusterIP
+  ipFamilyPolicy: SingleStack
+  sessionAffinity: None
+  selector:
+    app: tutorial-bias-advertising
+    deployment: tutorial-bias-advertising

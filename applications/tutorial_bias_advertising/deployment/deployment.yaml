@@ -1,0 +1,46 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: tutorial-bias-advertising
+  namespace: tutorial-bias-advertising
+  labels:
+    app: tutorial-bias-advertising
+    app.kubernetes.io/component: tutorial-bias-advertising
+    app.kubernetes.io/instance: tutorial-bias-advertising
+    app.kubernetes.io/name: tutorial-bias-advertising
+    app.kubernetes.io/part-of: tutorial-bias-advertising
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tutorial-bias-advertising
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: tutorial-bias-advertising
+        deployment: tutorial-bias-advertising
+    spec:
+      containers:
+        - name: tutorial-bias-advertising
+          image: >-
+            image-registry.openshift-image-registry.svc:5000/tutorial-bias-advertising/tutorial-bias-advertising:latest
+          ports:
+            - containerPort: 8080
+              protocol: TCP
+          resources: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          imagePullPolicy: Always
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30
+      dnsPolicy: ClusterFirst
+      securityContext: {}
+      schedulerName: default-scheduler
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 25%
+  revisionHistoryLimit: 10
+  progressDeadlineSeconds: 600
