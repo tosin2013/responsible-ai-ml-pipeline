@@ -5,50 +5,62 @@ parent: Deployment Instructions
 nav_order: 2
 ---
 
-## Configure Data Science Project - TrustyAI Workloads
+## TrustyAI Workloads
 
-1. Once you are in the OpenShift AI workspace click on `Create a workbench`
-![20240621111631](https://i.imgur.com/z5gcpKY.png)
-2. Name: `responsible-ai-ml-pipeline`
-Notebook image
-Image selection: `TrustyAI`
-Version selection `2024.1`
-![20240621112811](https://i.imgur.com/JADcoD5.png)
-3. Wait for the workspace to be created `Click on Open to access the workspace`
-![20240603150615](https://i.imgur.com/MC7f4bK.png)
-4. Authorize Access to the workbench
-![20240603150939](https://i.imgur.com/LZApBNv.png)
-5. Git clone the repository
-Git clone: `https://github.com/tosin2013/responsible-ai-ml-pipeline.git`
-![20240625181246](https://i.imgur.com/hqqTNjq.png)
-![20240603151456](https://i.imgur.com/AQ037lj.png)
-![20240603151512](https://i.imgur.com/6plqczC.png)
+### Creating a Workbench
+1. In the OpenShift AI workspace, click on `Create a workbench`.
+   ![20240621111631](https://i.imgur.com/z5gcpKY.png)
+2. Name the workbench `responsible-ai-ml-pipeline`.
+3. Select the notebook image:
+   - Image: `TrustyAI`
+   - Version: `2024.1`
+   ![20240621112811](https://i.imgur.com/JADcoD5.png)
+4. Wait for the workspace to be created, then click `Open` to access it.
+   ![20240603150615](https://i.imgur.com/MC7f4bK.png)
+5. Authorize access to the workbench.
+   ![20240603150939](https://i.imgur.com/LZApBNv.png)
 
-### To run  to the Language metrics Notebook
-Navigate to `responsible-ai-ml-pipeline/notebooks/trustyai/language_metrics.ipynb`
+### Cloning the Repository
+1. Clone the repository using the following URL:
+   ```
+   https://github.com/tosin2013/responsible-ai-ml-pipeline.git
+   ```
+   ![20240625181246](https://i.imgur.com/hqqTNjq.png)
+   ![20240603151456](https://i.imgur.com/AQ037lj.png)
+   ![20240603151512](https://i.imgur.com/6plqczC.png)
 
-## To run the Group Fairness Notebook
-Navigate to `responsible-ai-ml-pipeline/notebooks/trustyai/group_fairness.ipynb`
+### Running Notebooks
+- **Language Metrics Notebook**:
+  Navigate to `responsible-ai-ml-pipeline/notebooks/trustyai/language_metrics.ipynb`.
+- **Group Fairness Notebook**:
+  Navigate to `responsible-ai-ml-pipeline/notebooks/trustyai/group_fairness.ipynb`.
 
-## Configure Data Science Project - AI 360 Workloads
-1. Once you are in the OpenShift AI workspace click on `Create a workbench`
-![20240621111631](https://i.imgur.com/z5gcpKY.png)
-1. Name: `ibm-ai-260`
-Notebook image
-Image selection: `TrustyAI`
-Version selection `2024.1`
-![20240621112811](https://i.imgur.com/JADcoD5.png)
-1. Wait for the workspace to be created `Click on Open to access the workspace`
-![20240603150615](https://i.imgur.com/MC7f4bK.png)
-1. Authorize Access to the workbench
-![20240603150939](https://i.imgur.com/LZApBNv.png)
-1. Git clone the repository
-Git clone: `https://github.com/tosin2013/responsible-ai-ml-pipeline.git`
-![20240625181246](https://i.imgur.com/hqqTNjq.png)
-![20240603151456](https://i.imgur.com/AQ037lj.png)
-![20240603151512](https://i.imgur.com/6plqczC.png)
+## AI 360 Workloads
 
-### To run Detect and Mitigate Bias in AI 360
- Navigate to `responsible-ai-ml-pipeline/notebooks/ai360/detect_and_mitigate_bias.ipynb`
-### To run Discover, Measure, and Mitigate Bias in Advertising
-* Navigate to `responsible-ai-ml-pipeline/notebooks/ai360/tutorial_bias_advertising.ipynb` to start the notebook
+### Creating a Workbench
+1. In the OpenShift AI workspace, click on `Create a workbench`.
+   ![20240621111631](https://i.imgur.com/z5gcpKY.png)
+2. Name the workbench `ibm-ai-260`.
+3. Select the notebook image:
+   - Image: `TrustyAI`
+   - Version: `2024.1`
+   ![20240621112811](https://i.imgur.com/JADcoD5.png)
+4. Wait for the workspace to be created, then click `Open` to access it.
+   ![20240603150615](https://i.imgur.com/MC7f4bK.png)
+5. Authorize access to the workbench.
+   ![20240603150939](https://i.imgur.com/LZApBNv.png)
+
+### Cloning the Repository
+1. Clone the repository using the following URL:
+   ```
+   https://github.com/tosin2013/responsible-ai-ml-pipeline.git
+   ```
+   ![20240625181246](https://i.imgur.com/hqqTNjq.png)
+   ![20240603151456](https://i.imgur.com/AQ037lj.png)
+   ![20240603151512](https://i.imgur.com/6plqczC.png)
+
+### Running Notebooks
+- **Detect and Mitigate Bias in AI 360**:
+  Navigate to `responsible-ai-ml-pipeline/notebooks/ai360/detect_and_mitigate_bias.ipynb`.
+- **Discover, Measure, and Mitigate Bias in Advertising**:
+  Navigate to `responsible-ai-ml-pipeline/notebooks/ai360/tutorial_bias_advertising.ipynb`.
