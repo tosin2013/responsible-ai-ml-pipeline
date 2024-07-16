@@ -294,3 +294,57 @@ metric_test_aft = compute_metrics(dataset_orig_test, dataset_transf_pred_test,
 - Bias was mitigated using the Reject Option Classification (ROC) post-processing algorithm.
 - The results showed significant improvement in fairness metrics with minimal loss in balanced accuracy.
 
+---
+layout: default
+title: "Tutorial for Bias in Advertising Notebook"
+parent: AI Fairness 360
+nav_order: 2
+---
+
+# Tutorial for Bias in Advertising Notebook
+
+## Purpose
+
+This tutorial is designed to help users understand how to use the `tutorial_bias_advertising.ipynb` notebook. The notebook demonstrates how to discover, measure, and mitigate bias in advertising data using the AI Fairness 360 (AIF360) toolkit. It uses synthetic advertising data where advertisements are targeted, and the actual and predicted conversions are collected along with additional attributes about each user.
+
+## How to Use the Notebook
+
+### Prerequisites
+
+Before you start, ensure you have the following installed:
+- Python 3.x
+- Jupyter Notebook
+- AI Fairness 360 (AIF360) toolkit
+
+You can install the AIF360 toolkit using pip:
+```bash
+pip install aif360
+```
+
+### Steps to Follow
+
+1. **Open the Notebook**: Start by opening the `tutorial_bias_advertising.ipynb` notebook in Jupyter Notebook.
+
+2. **Install Required Libraries**: The notebook includes a cell to install the necessary libraries. Run this cell to ensure all dependencies are installed.
+
+3. **Load the Dataset**: The notebook will guide you through downloading and loading the synthetic advertising dataset.
+
+4. **Discover Biased Subgroups**: Using the Multi-Dimensional Subset Scan (MDSS) method, the notebook will help you identify subgroups that exhibit high predictive bias.
+
+5. **Measure Bias**: Various metrics will be used to measure the bias exhibited by these subgroups.
+
+6. **Mitigate Bias**: The notebook will demonstrate how to mitigate bias using post-processing bias mitigation approaches.
+
+7. **Run the Cells**: Follow the instructions in the notebook and run the cells in sequence to see the results and understand the process.
+
+### Understanding the Output
+
+- **Biased Subgroups**: The notebook will highlight which features and corresponding feature values form the subgroups with high predictive bias.
+- **Bias Metrics**: You will see how bias is quantified using metrics like disparate impact.
+- **Bias Mitigation**: The effects of bias mitigation techniques will be displayed, showing how the fairness metrics improve.
+
+### Conclusion
+
+By the end of this tutorial, you should have a clear understanding of how to use the AIF360 toolkit to detect and mitigate bias in advertising data. This knowledge can be applied to real-world datasets to ensure fairness in advertising practices.
+
+---
