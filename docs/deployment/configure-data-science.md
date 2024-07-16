@@ -31,20 +31,13 @@ nav_order: 2
 
 ### Running Notebooks
 - **Language Metrics Notebook**:
-  Navigate to `responsible-ai-ml-pipeline/notebooks/trustyai/language_metrics.ipynb`.
+  Navigate to `responsible-ai-ml-pipeline/notebooks/trustyai/LanguageMetrics.ipynb`.
   ![20240715113902](https://i.imgur.com/dWNfbiV.png)
 
 - **Group Fairness Notebook**:
   Navigate to `responsible-ai-ml-pipeline/notebooks/trustyai/group_fairness.ipynb`.
   ![20240715113833](https://i.imgur.com/GTqkqnO.png)
 
-- **AI Fairness  Notebook**:
-  Navigate to `responsible-ai-ml-pipeline/notebooks/learntools/Ai Fairness.ipynb`.
-  ![20240715114135](https://i.imgur.com/TDqkIPW.png)
-
-- **Identifying Bias in AI Notebook**:
-   Navigate to `responsible-ai-ml-pipeline/notebooks/learntools/Identifying Bias in AI.ipynb`.
-   ![20240715115117](https://i.imgur.com/QsVUPs2.png)
 
 ## AI 360 Workloads
 
