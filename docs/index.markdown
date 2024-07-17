@@ -18,13 +18,17 @@ This repository demonstrates how to build a responsible AI pipeline by integrati
 - IBM AI Fairness 360 library
 - Python 3.9+
 
-## Usage
-
+## Deployment Instuctions
+* [Step-by-Step Guide to Creating a Developer Sandbox on Red Hat OpenShift AI](****https://tosin2013.github.io/responsible-ai-ml-pipeline/deployment/create-a-openshift-ai-sandbox.html)
+* [Configure Data Science Project](https://tosin2013.github.io/responsible-ai-ml-pipeline/deployment/configure-data-science.html)
+  
 ### Detecting Bias
-Use the [detect_and_mitigate_bias.ipynb](notebooks/ai360/detect_and_mitigate_bias.ipynb) notebook to identify bias in your datasets and models using AIF360.
+[Mitigating Bias in Advertising]()
+Use the [detect_and_mitigate_bias.ipynb](https://github.com/tosin2013/responsible-ai-ml-pipeline/blob/main/notebooks/ai360/detect_and_mitigate_bias.ipynb) notebook to identify bias in your datasets and models using AIF360.
 
 ### Mitigating Bias in Advertising
-The [tutorial_bias_advertising.ipynb](notebooks/ai360/tutorial_bias_advertising.ipynb) notebook demonstrates how to mitigate bias in an advertising scenario using AIF360 and deploy the model on OpenShift.
+[Discover, Measure, and Mitigate Bias in Advertising](https://tosin2013.github.io/responsible-ai-ml-pipeline/ai360/tutorial_bias_advertising.html)
+The [tutorial_bias_advertising.ipynb]([notebooks/ai360/tutorial_bias_advertising.ipynb](https://github.com/tosin2013/responsible-ai-ml-pipeline/blob/main/notebooks/ai360/tutorial_bias_advertising.ipynb)) notebook demonstrates how to mitigate bias in an advertising scenario using AIF360 and deploy the model on OpenShift.
 
 ### Deploying on OpenShift - Discover, Measure, and Mitigate Bias in Advertising
 Follow the instructions in [applications/tutorial_bias_advertising/README.md](applications/tutorial_bias_advertising/README.md) to deploy your bias-aware models on OpenShift.
