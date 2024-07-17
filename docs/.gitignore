@@ -3,7 +3,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-aider-env/
+aider-env/*
 *aider-env/
 *.aider
 *aider_setup.sh
