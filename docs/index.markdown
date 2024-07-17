@@ -19,7 +19,7 @@ This repository demonstrates how to build a responsible AI pipeline by integrati
 - Python 3.9+
 
 ## Deployment Instuctions
-* [Step-by-Step Guide to Creating a Developer Sandbox on Red Hat OpenShift AI](****https://tosin2013.github.io/responsible-ai-ml-pipeline/deployment/create-a-openshift-ai-sandbox.html)
+* [Step-by-Step Guide to Creating a Developer Sandbox on Red Hat OpenShift AI](https://tosin2013.github.io/responsible-ai-ml-pipeline/deployment/create-a-openshift-ai-sandbox.html)
 * [Configure Data Science Project](https://tosin2013.github.io/responsible-ai-ml-pipeline/deployment/configure-data-science.html)
   
 ### Detecting Bias
@@ -48,11 +48,6 @@ To integrate with OpenShift:
 2. Push the image to your OpenShift registry
 3. Deploy the workload using OpenShift's API or web console
 
-## Contributing
-Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for details on our code of conduct and the process for submitting pull requests.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - IBM for developing AI Fairness 360
