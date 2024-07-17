@@ -2,7 +2,7 @@
 
 ## Overview
 This repository demonstrates how to build a responsible AI pipeline by integrating Red Hat OpenShift with IBM AI Fairness 360 (AIF360) to detect and mitigate bias in machine learning models. It provides examples and tools for developing fair and ethical AI systems using containerized workflows.
-[responsible-ai-ml-pipeline][https://tosin2013.github.io/responsible-ai-ml-pipeline/)
+[responsible-ai-ml-pipeline](https://tosin2013.github.io/responsible-ai-ml-pipeline/)
 
 ## Key Features
 - Detect and mitigate bias using IBM AI Fairness 360
