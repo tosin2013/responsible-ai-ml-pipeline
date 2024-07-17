@@ -31,7 +31,7 @@ Use the [detect_and_mitigate_bias.ipynb](https://github.com/tosin2013/responsibl
 The [tutorial_bias_advertising.ipynb]([notebooks/ai360/tutorial_bias_advertising.ipynb](https://github.com/tosin2013/responsible-ai-ml-pipeline/blob/main/notebooks/ai360/tutorial_bias_advertising.ipynb)) notebook demonstrates how to mitigate bias in an advertising scenario using AIF360 and deploy the model on OpenShift.
 
 ### Deploying on OpenShift - Discover, Measure, and Mitigate Bias in Advertising
-Follow the instructions in [applications/tutorial_bias_advertising/README.md](applications/tutorial_bias_advertising/README.md) to deploy your bias-aware models on OpenShift.
+Follow the instructions in [Tutorial bias advertising Deployment on OpenShift](https://tosin2013.github.io/responsible-ai-ml-pipeline/applications/tutorial_bias_advertising.html) to deploy your bias-aware models on OpenShift.
 
 ## Integration with OpenShift
 

@@ -70,6 +70,3 @@ nav_order: 1
 
 - **Support**:
   - If you need help, you can contact Red Hat support through the [Red Hat Customer Portal](https://access.redhat.com).
-
-By following these steps, you can effectively create a developer sandbox for data science, access the Red Hat OpenShift AI platform, and deploy and monitor your data science models. This setup provides a robust environment for experimenting with AI/ML models in a secure and scalable manner.
-
