@@ -1,5 +1,3 @@
-Here's an updated README.md that integrates OpenShift API with IBM AI Fairness 360 workloads and mentions that contributions are welcome:
-
 # Responsible AI ML Pipeline: Integrating OpenShift and IBM AI Fairness 360
 
 ## Overview
