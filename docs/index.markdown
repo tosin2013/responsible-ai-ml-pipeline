@@ -18,7 +18,7 @@ This repository demonstrates how to build a responsible AI pipeline by integrati
 - IBM AI Fairness 360 library
 - Python 3.9+
 
-## Deployment Instuctions
+### Deployment Instuctions
 * [Step-by-Step Guide to Creating a Developer Sandbox on Red Hat OpenShift AI](https://tosin2013.github.io/responsible-ai-ml-pipeline/deployment/create-a-openshift-ai-sandbox.html)
 * [Configure Data Science Project](https://tosin2013.github.io/responsible-ai-ml-pipeline/deployment/configure-data-science.html)
   
