@@ -15,9 +15,10 @@ nav_order: 2
    - Image: `Standard Data Science`
    - Version: `2024.1`
    ![20240715112114](https://i.imgur.com/E9rXMWh.png)
-4. Wait for the workspace to be created, then click `Open` to access it.
+4. Container Size Medium is recommended.
+5. Wait for the workspace to be created, then click `Open` to access it.
    ![20240603150615](https://i.imgur.com/MC7f4bK.png)
-5. Authorize access to the workbench.
+6. Authorize access to the workbench.
    ![20240603150939](https://i.imgur.com/LZApBNv.png)
 
 ### Cloning the Repository
