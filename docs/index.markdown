@@ -25,7 +25,7 @@ The [Responsible AI ML Pipeline: Integrating OpenShift and IBM AI Fairness 360](
 * [Configure Data Science Project](https://tosin2013.github.io/responsible-ai-ml-pipeline/deployment/configure-data-science.html)
   
 ### Detecting Bias
-[Mitigating Bias in Advertising]()
+[Mitigating Bias in Advertising](https://tosin2013.github.io/responsible-ai-ml-pipeline/ai360/detect_and_mitigate_bias.html)
 Use the [detect_and_mitigate_bias.ipynb](https://github.com/tosin2013/responsible-ai-ml-pipeline/blob/main/notebooks/ai360/detect_and_mitigate_bias.ipynb) notebook to identify bias in your datasets and models using AIF360.
 
 ### Mitigating Bias in Advertising
