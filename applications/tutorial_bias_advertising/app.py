@@ -8,6 +8,8 @@ from aif360.metrics import ClassificationMetric, BinaryLabelDatasetMetric
 from aif360.algorithms.postprocessing import RejectOptionClassification
 import logging
 import time
+import json
+
 
 app = Flask(__name__)
 

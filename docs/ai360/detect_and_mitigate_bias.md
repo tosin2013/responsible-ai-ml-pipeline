@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Quick Introduction to Using the "Detect and Mitigate Bias" Jupyter Notebook" 
+title:  "Quick Introduction to Using the 'Detect and Mitigate Bias' Jupyter Notebook" 
 parent: AI Fairness 360
 nav_order: 4
 ---
