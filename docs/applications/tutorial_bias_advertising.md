@@ -1,12 +1,9 @@
 ---
 layout: default
-title:  "Discover, Measure, and Mitigate Bias in Advertising - Application Deployment" 
+title:  "Discover, Measure, and Mitigate Bias in Advertising - Quick Deployment" 
 parent: Applications
 nav_order: 3
 ---
-
-# Tutorial bias advertising Deployment on OpenShift
-
 
 ## Deploy the Tutorial bias advertising api in OpenShift
 ```

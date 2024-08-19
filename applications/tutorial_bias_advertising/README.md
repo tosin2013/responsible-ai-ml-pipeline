@@ -26,4 +26,12 @@ curl --location 'https://${OPENSHIFT_URL}/measure_mitigate_bias' \
     "scores_name": "predicted_probability",
     "random_seed": 150
 }'
+
+ curl --location https://tutorial-bias-advertising-tutorial-bias-advertising.apps.rosa.rosa-vcwtg.ocyk.p3.openshiftapps.com/measure_mitigate_bias \
+--header 'Content-Type: application/json' \
+--data '{
+    "target_label_name": "predicted_conversion",
+    "scores_name": "predicted_probability",
+    "random_seed": 150
+}'
 ```
