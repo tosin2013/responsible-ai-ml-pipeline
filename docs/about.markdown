@@ -75,7 +75,3 @@ If you have any questions or need further assistance, feel free to reach out via
 - [IBM AI Fairness 360](https://aif360.res.ibm.com/)
 - [Red Hat OpenShift on AWS (ROSA)](https://www.openshift.com/products/amazon-openshift)
 - [Responsible AI ML Pipeline Repository](https://github.com/tosin2013/responsible-ai-ml-pipeline)
-
----
-
-By following this guide, you'll be well on your way to deploying a responsible AI ML pipeline that meets ethical standards and leverages the full potential of Red Hat OpenShift and IBM AI Fairness 360. Together, let's build a fairer, more equitable future with AI.
